@@ -33,7 +33,7 @@ addSecond = ()=> {
   render() { 
     return ( 
       <>
-      <h2>Stopwatch</h2>
+      <h3>Stopwatch</h3>
       <p className="timer">{this.state.time}</p>
       <SwitchButton click={this.handleClick} active={this.state.active} /> <br/>
       <Timer />
