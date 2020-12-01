@@ -31,7 +31,10 @@ class App extends Component {
   render() {
     return (
       <>
-        <h3>Stopwatch</h3>
+        {/* <p className="text">Stopwatch</p> */}
+        <div className="text __cos">/{this.state.time} || {this.state.time}\
+        <br/> <p className="lip">O</p>
+        </div>
         <p className="timer">{this.state.time}</p>
         <SwitchButton
           click={this.handleClick}

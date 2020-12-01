@@ -8,24 +8,30 @@ p {
   font-family: 'Courier New', Courier, monospace;
 }
 
-h3 {
-  padding: 170px 0;
-  height: 400px;
-  width: 400px;
+.text {
+  padding: 120px 0;
+  height: 300px;
+  width: 300px;
   border-radius: 200px;
   background-color: slategrey;
   color:salmon;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  font-size: 40px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 400;
   margin: 30px auto;
 }
 
+.lip{
+  padding: 35px;
+}
+
 .timer {
-  margin: 0 auto;
+  margin: 15px auto;
   padding: 2px 10px;
   border-radius: 20px;
-  width: 200px;
+  width: 100px;
+  font-size: 2rem;
   font-family: 'Major Mono Display', monospace;
   color: rgb(163, 151, 138);
   background-color: rgb(227, 210, 191);
