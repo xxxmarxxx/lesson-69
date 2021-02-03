@@ -3,4 +3,4 @@
 Stopwatch
 Timer
 * npm start
-![img](./components/assets/img.png)
+![img](../assets/img.png)
